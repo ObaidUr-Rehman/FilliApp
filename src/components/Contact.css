@@ -1,0 +1,192 @@
+@font-face {
+    font-family: ARSMAQUETTE;
+    src: url(../images/ARSMAQUETTEPRO-MEDIUM.TTF);
+}
+
+@font-face {
+    font-family: NT-Wagner;
+    src: url(../images/ntwagner.otf);
+}
+
+
+
+
+.background-image7 {
+    width: 100%;
+    display: flex;
+    /* margin-top: 5%; */
+    position: relative;
+}
+
+
+.content7 {
+    background-image: url(../images/seventh-bg1.png);
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    min-height: 100vh;
+    padding: 5% 0 5% 5%;
+    position: relative;
+}
+
+.right {
+    padding: 0 0 0 50px;
+    background-image: url(../images/City.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    min-height: 100%;
+    position: relative;
+
+}
+
+.bottom-right {
+    color: #FADA8E;
+    position: absolute;
+    width: 50%;
+    bottom: 25px;
+}
+
+.bottom-right h1 {
+    font-family: NT-Wagner;
+}
+
+.bottom-right p {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: ARSMAQUETTE;
+
+}
+
+.content7 h1 {
+    font-size: 3.0em;
+    font-family: NT-Wagner;
+    color: #FF5100;
+    padding-top: 10px;
+}
+
+.content7 h4 {
+    color: #38414C;
+    letter-spacing: 8px;
+    padding-top: 30px;
+}
+
+.contact {
+    font-family: ARSMAQUETTE;
+}
+
+/* .contact h1 h3 span {
+    font-family: ARSMAQUETTE;
+  } */
+
+.content7 h3 {
+    color: #FF5100;
+    padding-top: 37px;
+    font-family: NT-Wagner;
+    font-size: 1.5em;
+}
+
+.content7 hr {
+    width: 100px;
+    border-bottom: solid 3px black;
+}
+
+
+
+/* 9th Page */
+.background-image8 {
+    background-size: 100% 100%;
+    background-image: url(../images/eight-bg.png);
+    background-repeat: no-repeat;
+    background-color: #ed4d52;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5% 5%;
+    position: relative;
+}
+
+
+.content8 h1 {
+    color: rgb(246, 240, 240);
+    font-size: 3.0em;
+    font-family: NT-Wagner;
+    padding-bottom: 20px;
+    /* padding-top: 10px; */
+}
+
+.content8 h4 {
+    letter-spacing: 4px;
+    color: rgb(246, 240, 240);
+    padding-left: 5px;
+    font-family: ARSMAQUETTE;
+}
+
+.content8 button {
+    background-color: white;
+    border: none;
+    color: #F05223;
+    padding: 13px 33px 13px 43px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 15px;
+    /* margin-right: 19px; */
+}
+
+.content8 input {
+    border: none;
+    margin: 5px 5px;
+    border-radius: 10px;
+    width: 80%;
+    padding: 12px 30px 12px 20px;
+    background-color: rgb(230, 224, 224);
+    opacity: 0.2;
+    font-family: ARSMAQUETTE;
+}
+
+.first ul li:hover {
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.bottle-img {
+    margin-top: -8%;
+    float: right;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 182, 182);
+    gap: 30px;
+    padding-top: 25%;
+    padding-right: 20px;
+}
+
+.icons {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding-top: 20px;
+}
+
+.icons svg {
+    height: 50px;
+    color: rgba(253, 253, 253, 0.3)
+}
+
+.icons svg:hover {
+    cursor: pointer;
+    color: white;
+}
